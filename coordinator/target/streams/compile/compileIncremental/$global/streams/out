@@ -1,0 +1,47 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/17349/IdeaProjects/PresleyDB/coordinator/src/main/scala/presley/coordinator/CoordinatorSetup.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/17349/IdeaProjects/PresleyDB/coordinator/src/main/scala/presley/coordinator/CoordinatorSetup.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/17349/IdeaProjects/PresleyDB/coordinator/src/main/scala/presley/coordinator/CoordinatorSetup.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/17349/IdeaProjects/PresleyDB/coordinator/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3d83a5c2, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-language:postfixOps[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes:/Users/17349/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/17349/IdeaProjects/PresleyDB/coordinator/target/scala-2.11/classes:/Users/17349/.ivy2/cache/org.scodec/scodec-bits_2.11/bundles/scodec-bits_2.11-1.1.2.jar:/Users/17349/.ivy2/cache/com.typesafe.scala-logging/scala-logging-slf4j_2.11/jars/scala-logging-slf4j_2.11-2.1.2.jar:/Users/17349/.ivy2/cache/com.typesafe.scala-logging/scala-logging-api_2.11/jars/scala-logging-api_2.11-2.1.2.jar:/Users/17349/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar:/Users/17349/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar:/Users/17349/.ivy2/cache/com.nativelibs4java/scalaxy-loops_2.11/jars/scalaxy-loops_2.11-0.3.3.jar:/Users/17349/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.8.jar:/Users/17349/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar:/Users/17349/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar:/Users/17349/.ivy2/cache/com.nativelibs4java/scalaxy-streams_2.11/jars/scalaxy-streams_2.11-0.3.3.jar[0m
+[0m[[31merror[0m] [0m/Users/17349/IdeaProjects/PresleyDB/coordinator/src/main/scala/presley/coordinator/CoordinatorSetup.scala:4: object config is not a member of package com.typesafe[0m
+[0m[[31merror[0m] [0mimport com.typesafe.config.{Config, ConfigFactory}[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0m/Users/17349/IdeaProjects/PresleyDB/coordinator/src/main/scala/presley/coordinator/CoordinatorSetup.scala:18: not found: type Config[0m
+[0m[[31merror[0m] [0m  val coordinatorConfig: Config = {[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m/Users/17349/IdeaProjects/PresleyDB/coordinator/src/main/scala/presley/coordinator/CoordinatorSetup.scala:20: not found: value ConfigFactory[0m
+[0m[[31merror[0m] [0m                          .map { path => ConfigFactory.parseFile(new java.io.File(path)) }[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0m/Users/17349/IdeaProjects/PresleyDB/coordinator/src/main/scala/presley/coordinator/CoordinatorSetup.scala:21: not found: value ConfigFactory[0m
+[0m[[31merror[0m] [0m                          .getOrElse(ConfigFactory.empty)[0m
+[0m[[31merror[0m] [0m                                     ^[0m
+[0m[[31merror[0m] [0m/Users/17349/IdeaProjects/PresleyDB/coordinator/src/main/scala/presley/coordinator/CoordinatorSetup.scala:23: not found: value ConfigFactory[0m
+[0m[[31merror[0m] [0m      ConfigFactory.defaultOverrides.withFallback(config)[0m
+[0m[[31merror[0m] [0m      ^[0m
+[0m[[31merror[0m] [0m/Users/17349/IdeaProjects/PresleyDB/coordinator/src/main/scala/presley/coordinator/CoordinatorSetup.scala:24: not found: value ConfigFactory[0m
+[0m[[31merror[0m] [0m        .withFallback(ConfigFactory.parseURL(getClass.getResource("/presley-defaults.conf")))[0m
+[0m[[31merror[0m] [0m                      ^[0m
+[0m[[31merror[0m] [0m6 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(coordinator/compile:[31mcompileIncremental[0m) Compilation failed[0m
